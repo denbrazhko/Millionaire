@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Millionaire</string>
+    <string name="new_game_but">Новая игра</string>
 </resources>
