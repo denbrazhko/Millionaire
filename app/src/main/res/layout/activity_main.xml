@@ -48,7 +48,8 @@
         android:layout_marginTop="16dp"
         android:text="100"
         app:layout_constraintStart_toEndOf="@+id/dollar_symb"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="HardcodedText" />
 
     <TextView
         android:id="@+id/bitcoin_symb"
@@ -59,7 +60,8 @@
         android:layout_marginTop="16dp"
         android:text="B"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/dollar_symb" />
+        app:layout_constraintTop_toBottomOf="@+id/dollar_symb"
+        tools:ignore="HardcodedText" />
 
     <TextView
         android:id="@+id/textView4"
@@ -70,7 +72,8 @@
         android:layout_marginTop="16dp"
         android:text="0"
         app:layout_constraintStart_toEndOf="@+id/bitcoin_symb"
-        app:layout_constraintTop_toBottomOf="@+id/dollar_sum_text_view" />
+        app:layout_constraintTop_toBottomOf="@+id/dollar_sum_text_view"
+        tools:ignore="HardcodedText" />
 
     <ProgressBar
         android:id="@+id/satiety_bar"
